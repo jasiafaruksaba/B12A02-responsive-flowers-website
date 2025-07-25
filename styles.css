@@ -9,3 +9,136 @@
     font-style: normal;
     
   }
+.body{
+  box-sizing: border-box;
+}
+  
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Shared styles */
+.display-flex{
+  display: flex;
+}
+ 
+.orange-bg {
+color: #E95A08;
+}
+
+/* navbar related styles */
+ 
+.navber{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.logo img{
+  height: 40px;
+
+}
+.nav-links right ul {
+  text-decoration:none ;
+  font-weight: 500;
+  display: flex;
+}
+
+.nav-links right ul li{
+
+}
+
+.nav-links right ul li a{
+
+}
+
+/* banner styles */
+ .banner {
+   align-items: center;
+   margin: 50px auto;
+ }
+
+.banner-left-items h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 80px; 
+  margin-bottom: 20px
+}
+
+.banner-left-items p{
+  margin: 15px o;
+  max-width: 70%;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #868484 ;
+}
+
+.banner-right-items img{
+  display: block;
+}
+   
+/* card styles */
+
+
+.plants-container h3{
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.plants-container p {
+  font-size: 27px;
+  margin-bottom: 50px;
+  color: #868484 ;
+  text-align: center;
+  padding: 20px 30px;
+  margin: 0 auto 40px;
+  max-width: 1000px ;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.cards-container{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 30px;
+}
+
+.card img {
+  height: auto;
+  width: 100%;
+ 
+}
+  
+.card h3 {
+  margin: 25px 0;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+ 
+.btn-primary{
+  padding: 15px 70px;
+ border: none;
+ background-color: #E95A08;
+ color: white;
+ font-weight: bold;
+ font-size: 15px;
+ width: 100%;
+}
+.card-body{
+  padding: 15px;
+}
+
+
+
