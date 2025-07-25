@@ -9,12 +9,12 @@
 </head>
 <body class=".work-sans-font">
     <header>
-        <nav class="navbar , display-flex">
+        <nav class="navbar , display-flex , container">
            <div  class="logo">
             <img src="./assets/logo.png" alt="">
         </div>
-        <div class="nav-links right"> 
-        <ul>
+        <div class="nav-links right "> 
+        <ul class="display-flex">
         <li class="nav-item"><a href="" >Home</a>
         </li> 
         <li class="nav-item"><a href="" >Shop</a>
@@ -116,12 +116,11 @@
                                                                 </div>                                                                                     
     </div>
      </section>
-   <section class="plants-lover">
-       <div class="plants-lover-left">
-       <img src="./assets/flower-store.png" alt="">
-       <div class="lover-badge">
-       <img src="./assets/trusted-badge.png" alt="">
-    </div>
+   <section class="plants-lover , container ">
+              <div class="image-contain">
+       <img src="./assets/flower-store.png" alt="" class="plants-lover-left">
+              <img src="./assets/trusted-badge.png" alt="" class="lover-badge">
+    
     </div>
     <div class="plants-lover-right">
      <h3 class="lover-title">Flowers & Plants <br>Lover</h3>
@@ -141,16 +140,62 @@
      </ul>
     </div>
    </section>
-   <section class="latest-deals">
+   <section class="latest-deals  ,  container">
        <div class="deals">
-      <h3 class="deals-title"><span class="">Latest</span>Deals</h3>
+      <h3 class="deals-title"><span class="orange-bg">Latest</span>Deals</h3>
       <p class="deals-description">Indulge your senses with the beauty and fragrance of our fresh flower shop.
         From classic roses to exotic blooms,we offer a wide variety of fresh.</p>
        </div>
+       <div class="deals-continer">
+           <div class="deal-box bloom">
+           <div class="overlay"></div>
+           <div class="deal-text">60% Off | Bloom Plant<br><span>Shop Now</span></div>
+           </div>
+           <div class="deal-box ana">
+            <div class="overlay"></div>
+            <div class="deal-text">50% Off | Ana Plant<br><span>Shop Now</span></div>
+            </div>
+            <div class="deal-box zabo large">
+                <div class="overlay"></div>
+                <div class="deal-text">25% Off | Zabo Plant<br><span>Shop Now</span></div>
+                </div>
+            </div>
+   </section>
+   <section class="join-section , container">
+       <h3>Join the colorful Bunch</h3> 
+       <form >
+           <input type="email" placeholder="Write email">
+           <button type="submit">Subscribe</button>
+       </form>
    </section>
     </main>
-    <footer>
-
+    <footer class="footer , container">
+    <div class="footer-left">
+<img src="./assets/logo.png" alt="">
+<p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+    </div>
+    <div class="footer-links">
+     <div>
+         <p>Home</p>
+         <p>About Us</p>
+         <p>Blog</p>
+         <p>FAQ</p>
+         <p>Contact Us</p>
+     </div>
+     <div>
+        <p>Features</p>
+        <p>Pricing</p>
+        <p>Privacy Policy</p>
+        <p>Terms of Service</p>
+        <p>Help Center</p>
+     </div>
+    </div>
+    <div class="social-icons"> 
+<img src="./assets/icon-linkedin.png" alt="">
+<img src="./assets/icon-twitter.png" alt="">
+<img src="./assets/icon-facebook.png" alt="">
+<img src="./assets/icon-youtube.png" alt="">
+    </div>
     </footer>
 </body>
 </html>

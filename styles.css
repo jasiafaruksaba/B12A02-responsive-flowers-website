@@ -141,4 +141,51 @@ color: #E95A08;
 }
 
 
+/* lover section */
+.plants-lover {
+  display: flex; 
+  gap: 70px;
+  padding: 100px;
+  margin-top: 200px; 
+  align-items: center;
+  margin: 50px auto;
+ 
+} 
+
+.image-contain {
+  position: relative;
+  flex: 1;
+ }
+ 
+.plants-lover-left {
+  width: 500px;
+  height:auto;
+  display: block;
+  
+}
+
+.lover-badge{
+  position: absolute;
+  top: -130px;
+  right: -120px;
+  width:300px;
+  
+  height:300px;
+  border-radius: 50%;
+  z-index: 10;
+} 
+
+.plants-lover-right h3{
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.plants-lover-right ul li p {
+  margin-left: auto;
+  margin-bottom: auto;
+  font-size: 30px ;
+  color: #868484;
+}
 
