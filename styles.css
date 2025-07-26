@@ -441,8 +441,9 @@ color: #E95A08;
 /* responsive media query */
 
 @media only screen and (max-width: 768px) {
+  
   .banner {
-    
+    max-width: 768px;
     flex-direction: column;
     text-align: center;
     align-items: center;
