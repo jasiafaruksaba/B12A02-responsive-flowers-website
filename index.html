@@ -9,19 +9,16 @@
 </head>
 <body class=".work-sans-font">
     <header>
-        <nav class="navbar , display-flex , container">
-           <div  class="logo">
+        <nav class="navbar , container">
+            <div class="navbar-container">
+                <div class="logo">
             <img src="./assets/logo.png" alt="">
         </div>
-        <div class="nav-links right "> 
-        <ul class="display-flex">
-        <li class="nav-item"><a href="" >Home</a>
-        </li> 
-        <li class="nav-item"><a href="" >Shop</a>
-        </li> 
-        <li class="nav-item"><a href="" >About us</a>
-        </li> 
-        <li class="nav-item"><a href="" ><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a>
+        <ul class="nav-links">
+            <li><a href="" class="black-bg">Home</a></li>
+            <li ><a href=""class="gray-bg" >Shop</a></li>
+            <li ><a href="" class="gray-bg">About Us</a></li>
+        <li><a href="" class="black-bg" ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
         </li> 
         </ul>
         </div>
@@ -142,60 +139,75 @@
    </section>
    <section class="latest-deals  ,  container">
        <div class="deals">
-      <h3 class="deals-title"><span class="orange-bg">Latest</span>Deals</h3>
+      <h3 class="deals-title"><span class="orange-bg">Latest </span> Deals</h3>
       <p class="deals-description">Indulge your senses with the beauty and fragrance of our fresh flower shop.
         From classic roses to exotic blooms,we offer a wide variety of fresh.</p>
        </div>
-       <div class="deals-continer">
-           <div class="deal-box bloom">
-           <div class="overlay"></div>
-           <div class="deal-text">60% Off | Bloom Plant<br><span>Shop Now</span></div>
+       <div class="deals-grid">
+           <div class="deal-card small-card bloom-plant">
+          <div class="overlay">
+           <p class="discount"> 60% Off | Bloom Plant</p>
+           <a href="" class="shop-now-btn">Shop Now</a>
+        </div>
            </div>
-           <div class="deal-box ana">
-            <div class="overlay"></div>
-            <div class="deal-text">50% Off | Ana Plant<br><span>Shop Now</span></div>
+           <div class="deal-card large-card zaboo-plant">
+            <div class="overlay">
+                <p class="discount">25% Off | Zabo Plant</p>
+                <a href="" class="shop-now-btn">Shop Now</a>
             </div>
-            <div class="deal-box zabo large">
-                <div class="overlay"></div>
-                <div class="deal-text">25% Off | Zabo Plant<br><span>Shop Now</span></div>
-                </div>
+        </div>
+        <div class="deal-card small-card ana-plant">
+            <div class="overlay">
+                <p class="discount">30% Off | Ana Plant</p>
+                <a href="" class="shop-now-btn">Shop Now</a>
             </div>
+        </div>
+    </div>
    </section>
-   <section class="join-section , container">
-       <h3>Join the colorful Bunch</h3> 
-       <form >
-           <input type="email" placeholder="Write email">
-           <button type="submit">Subscribe</button>
-       </form>
-   </section>
+   <section class="newsletter-section , container">
+    <div class="newsletter-content">
+        <h2>Join the colorful Bunch</h2>
+        <div class="newsletter-form">
+            <input type="email" placeholder="Write email">
+            <button type="submit">Subscribe</button>
+        </div>
+    </div>
+</section>
     </main>
-    <footer class="footer , container">
-    <div class="footer-left">
-<img src="./assets/logo.png" alt="">
+    <footer class="main-footer , container">
+        <div class="footer-grid">
+            <div class="footer-about">
+<img src="./assets/logo.png" alt=""class="footer-logo" >
 <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
     </div>
-    <div class="footer-links">
-     <div>
-         <p>Home</p>
-         <p>About Us</p>
-         <p>Blog</p>
-         <p>FAQ</p>
-         <p>Contact Us</p>
-     </div>
-     <div>
-        <p>Features</p>
-        <p>Pricing</p>
-        <p>Privacy Policy</p>
-        <p>Terms of Service</p>
-        <p>Help Center</p>
-     </div>
-    </div>
-    <div class="social-icons"> 
-<img src="./assets/icon-linkedin.png" alt="">
-<img src="./assets/icon-twitter.png" alt="">
-<img src="./assets/icon-facebook.png" alt="">
-<img src="./assets/icon-youtube.png" alt="">
-    </div>
-    </footer>
+    
+    <div class="footer-links-group">
+        <div class="footer-links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Service</a></li>
+                <li><a href="">Help Center</a></li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="">  <img src="./assets/icon-linkedin.png" alt=""></a>
+                <a href="">  <img src="./assets/icon-twitter.png" alt=""></a>
+                    <a href=""> <img src="./assets/icon-facebook.png" alt=""></a>
+                        <a href="">   <img src="./assets/icon-youtube.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
